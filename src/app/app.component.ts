@@ -11,7 +11,7 @@ import { OnInit } from '@angular/core';
 
 })
 export class AppComponent implements OnInit {
-  title = 'Tour of Heroes';
+  title = 'Tour of Heroes by Lucas';
   heroes: Hero[];
   selectedHero: Hero;
   constructor(private heroService: HeroService) { }
